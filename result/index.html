@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Calculator - Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>RESULT CALCULATOR</h1>
+    <div class="container">
+      <div class="inputvalue">
+        <label for="firstSem">First Semester Marks</label>
+        <input
+          type="text"
+          id="first"
+          placeholder="Enter your First Semester Marks"
+        />
+        <label for="secondSem">Second Semester Marks</label>
+
+        <input
+          type="text"
+          id="second"
+          placeholder="Enter your Second Semester Marks"
+        />
+        <label for="thirdSem">Third Semester Marks</label>
+        <input
+          type="text"
+          id="third"
+          placeholder="Enter your Third Semester Marks"
+        />
+        <label for="fourthSem">Fourth Semester Marks</label>
+        <input
+          type="text"
+          id="fourth"
+          placeholder="Enter your Fourth Semester Marks"
+        />
+        <label for="fifthSem">Fifth Semester Marks</label>
+        <input
+          type="text"
+          id="fifth"
+          placeholder="Enter your Fifth Semester Marks"
+        />
+        <label for="sixthSem">Sixith Semester Marks</label>
+        <input
+          type="text"
+          id="sixth"
+          placeholder="Enter your Sixth Semester Marks"
+        />
+        <label for="totalMax">Total Maximum Marks</label>
+        <input type="text" id="total" placeholder="Enter Max Total Marks" />
+      </div>
+      <button class="click" onclick="calcResult()">Result</button>
+      <button class="click" onclick="clearInput()">Clear</button>
+      <div class="para">
+        <h3 id="sum">Your Total Marks will be displayed here.</h3>
+        <h3 id="average">Your Average percentage will be displayed here.</h3>
+        <h3 id="result">
+          Your Result will be displayed here(Fail,Pass Class,First
+          Class,Distinction).
+        </h3>
+        <button class="btnStyle" onclick="window.location.href='../index.html'">
+          Basic Calculator
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

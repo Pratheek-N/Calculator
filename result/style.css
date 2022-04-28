@@ -1,0 +1,104 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("—Pngtree—question mark on a pink_1236867.jpg");
+  background-position: 75%;
+  /* height: 80vh; */
+}
+input {
+  width: 22em;
+  height: 50px;
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+input::placeholder {
+  text-align: center;
+}
+
+.inputvalue {
+  background-color: linear-gradient(rgba(87, 36, 36, 0.8));
+  float: left;
+  padding: 20px;
+  margin: 50px 50px 0px 50px;
+}
+
+.click {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  position: relative;
+  margin-left: 150px;
+  top: 260px;
+  cursor: pointer;
+}
+.click:hover {
+  background-color: rgb(202, 194, 183);
+  font-weight: 600;
+}
+.para {
+  position: relative;
+  margin: 300px 0 0 750px;
+  color: white;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 30px;
+}
+#total::placeholder {
+  font-weight: 600;
+  color: rgb(201, 37, 138);
+}
+label {
+  color: #fff;
+  font-weight: bold;
+  padding-top: 20px;
+  width: 180px;
+  float: left;
+}
+label::after {
+  content: " :";
+  color: rgb(233, 222, 243);
+}
+.text-danger {
+  color: rgb(255, 0, 0);
+}
+.btnStyle {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background: linear-gradient(
+      to right,
+      rgba(100, 200, 200, 0),
+      rgba(100, 200, 200, 0)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  position: relative;
+  left: 18%;
+  padding: 10px;
+  top: 0.5em;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnStyle:hover,
+.btnStyle:focus {
+  background-size: 0 0.2em, 100% 0.2em;
+}
