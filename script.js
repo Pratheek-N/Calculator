@@ -12,7 +12,18 @@ function e() {
 function c(value) {
   inputValue.value = value;
 }
-
+function b(value) {
+  let value1 = Number(document.querySelector("#d").value);
+  if (value === "dec") {
+    inputValue.value = `${value1} to Decimal ${value1.toString(10)}`;
+  } else if (value === "bin") {
+    inputValue.value = `${value1} to Binary ${value1.toString(2)}`;
+  } else if (value === "oct") {
+    inputValue.value = `${value1} to Octal ${value1.toString(8)}`;
+  } else if (value === "hex") {
+    inputValue.value = `${value1} to Hexa Decimal ${value1.toString(16)}`;
+  }
+}
 document.addEventListener("keydown", function (e) {
   try {
     if (
