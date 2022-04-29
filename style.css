@@ -98,10 +98,13 @@ h1 {
 p {
   line-height: 10px;
 }
+.btn-result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
 .btnNext {
-  position: relative;
-  top: 80px;
-  left: 43.5%;
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
